@@ -1,0 +1,85 @@
+/*----------------header text------------------*/
+.header-text{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text p{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-bottom: 5px solid rgb(248, 90, 33);
+}
+
+/*---------------------Contact container--------------------------*/
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+.contact-item{
+    width: 400px;
+}
+.contact-item i{
+    font-size: 50px;
+}
+.contact-item p{
+    font-size: 20px;
+}
+
+/*----------------------------Message container----------------------------------*/
+.message-container{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(211, 210, 210);
+}
+.form-container{
+    width: 600px;
+}
+
+/*----------------------Footer------------------------------*/
+footer{
+    background-color: seagreen;
+}
+footer .icon-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.icon-container 
+.icon-1 img,
+.icon-2 img,
+.icon-3 img{
+    width: 50px;
+    height: 50px;
+}
+
+/*------------------Responsive-------------------------*/
+@media (max-width: 399px){
+
+    /*---------Contact-container-----------------*/
+    .contact-item i{
+        font-size: 35px;
+    }
+    .contact-item p{
+        font-size: 18px;
+    }
+
+
+
+    /*----------Footer-----------*/
+    .icon-container 
+    .icon-1 img,
+    .icon-2 img,
+    .icon-3 img{
+        width: 35px;
+        height: 35px;
+    }
+
+}

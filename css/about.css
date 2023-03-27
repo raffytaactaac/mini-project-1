@@ -1,0 +1,145 @@
+
+/*----------------header text------------------*/
+.header-text{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text p{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-bottom: 5px solid rgb(248, 90, 33);
+}
+
+/*---------------Section 1--------------------*/
+.section-1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section-1 .text-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.section-1 .about-text{
+    width: 800px;
+    padding: 30px;
+}
+.section-1 p{
+    font-size: 18px;
+}
+.section-1 .about-image{
+    padding: 20px;
+}
+.about-image img{
+    height: 530px;
+}
+
+/*---------------------Section 2-------------------------------*/
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.section-2 p{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(248, 90, 33);
+}
+.accreditation-image{
+    gap: 50px;
+}
+.accreditation-image img{
+    width: 300px;
+    height: 150px;
+}
+
+/*-------------------------Section 3---------------------------------------*/
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    padding: 50px 0;
+}
+.section-3 .service-header-text{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(248, 90, 33);
+}
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.service-item{
+    width: 350px;
+    height: 300px;
+}
+.service-item i{
+    font-size: 50px;
+}
+.service-item .service-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*----------------------Footer------------------------------*/
+footer{
+    background-color: seagreen;
+}
+footer .icon-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.icon-container 
+.icon-1 img,
+.icon-2 img,
+.icon-3 img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*-----------------Responsive------------------------*/
+@media (max-width: 439px){
+    .about-image img{
+        height: 300px;
+    }
+    /*---------------------------*/
+    .accreditation-image img{
+        width: 250px;
+        height: 150px;
+    }
+    .service-item{
+        width: 250px;
+        padding: 10px;
+    }
+
+
+
+    /*----------Footer-----------*/
+    .icon-container 
+    .icon-1 img,
+    .icon-2 img,
+    .icon-3 img{
+        width: 35px;
+        height: 35px;
+    }
+
+}
